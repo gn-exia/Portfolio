@@ -1,0 +1,15 @@
+/* Your custom css code goes here */
+body {
+    color: rgba(255,255,255,.7  );
+}
+
+.icon {
+    font-size: 30px;
+}
+.badge-custom {
+    background-color: #22eeaa;
+    color:#000;
+}
+.spacing{
+    margin-left: 20px;
+}
