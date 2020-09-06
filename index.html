@@ -35,10 +35,9 @@
       <nav role="navigation" class="probootstrap-nav hidden-xs">
         <ul class="probootstrap-main-nav">
           <li class="active"><a href="index.html">Accueil</a></li>
-          <li><a href="projects.html">Projets</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">À propos</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
         </ul>
 
         <div class="extra-text visible-xs">
@@ -74,7 +73,7 @@
   </section>
   <!-- END: header txt  -->
   <!-- START: about -->
-  <section class="probootstrap-section">
+  <section id="apropos" class="probootstrap-section">
     <div class="container">
       <div class="row">
         <figure>
@@ -85,7 +84,8 @@
         </figure>
         <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
           <h1 class="text-uppercase">À propos</h1>
-          <p>Issu du cursus de développeur web full-stack Passerelle Numérique de l’École Centrale de Marseille, je suis
+          <p>Diplomé du cursus de développeur web full-stack Passerelle Numérique de l’École Centrale de Marseille, je
+            suis
             actuellement à la recherche d'un poste de développeur web pour mettre en pratique les compétences acquises
             au cours de ces 9 mois de formation.</p>
         </div>
@@ -95,7 +95,7 @@
   <!-- END: about -->
 
   <!-- START: Compétences -->
-  <section class="probootstrap-section">
+  <section id="competences" class="probootstrap-section">
     <div class="container">
       <div class="row">
         <div class="col-md-12 section-heading probootstrap-animate">
@@ -226,7 +226,7 @@
   <!-- END: tech -->
 
   <!-- START: Projets -->
-  <section class="probootstrap-section">
+  <section id="realisations" class="probootstrap-section">
     <div class="container">
       <div class="row">
         <div class="col-md-12 section-heading probootstrap-animate">
@@ -238,7 +238,7 @@
           <div class="probootstrap-card">
             <div class="probootstrap-card-media">
               <a href="jimi-workshop.html"><img src="img/Jimi/screen-website.png" class="img-responsive img-border"
-                  alt="Free HTML5 Template by uicookies.com"></a>
+                  alt="Screenshot page d'accueil Jimi's workshop"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb-1">Jimi's Workshop</h2>
@@ -255,7 +255,7 @@
           <div class="probootstrap-card">
             <div class="probootstrap-card-media">
               <a href="GBN-app.html"><img src="img/GBN/GBN-poster.png" class="img-responsive img-border"
-                  alt="Free HTML5 Template by uicookies.com"></a>
+                  alt="Screenshot page d'accueil application GBN"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb-1">Gunpla Builders Network</h2>
@@ -270,7 +270,7 @@
           <div class="probootstrap-card">
             <div class="probootstrap-card-media">
               <a href="GBN-WP.html"><img src="img/GBN/GBN-WP.png" class="img-responsive img-border"
-                  alt="Free HTML5 Template by uicookies.com"></a>
+                  alt="Screenshot landing page GBN"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb-1">Landing page - GBN</h2>
@@ -288,63 +288,20 @@
   <!-- START: Footer -->
   <footer class="probootstrap-footer probootstrap-bg">
     <div class="container">
-      <div class="row mb60">
-        <div class="col-md-3">
-          <div class="probootstrap-footer-widget">
-            <h3 class="heading">About Black.</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-              the
-              blind texts. </p>
-            <p><a href="#">Read more...</a></p>
-          </div>
-        </div>
-        <div class="col-md-3">
+      <div class="row mb60 d-flex justify-content-center">
+        <div class="col-md-6">
           <div class="probootstrap-footer-widget probootstrap-link-wrap">
-            <h3 class="heading">Quick Links</h3>
+            <h3 class="heading">Plan du site</h3>
             <ul class="stack-link">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Testimonial</a></li>
+              <li><a href="#apropos">À propos</a></li>
+              <li><a href="#competences">Compétences</a></li>
+              <li><a href="#realisations">Réalisations</a></li>
             </ul>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="probootstrap-footer-widget">
-            <h3 class="heading">More Links</h3>
-            <ul class="stack-link">
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Career</a></li>
-              <li><a href="#">Support Help</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="probootstrap-footer-widget probootstrap-link-wrap">
-            <h3 class="heading">Subscribe</h3>
-            <p>Far far away behind the word mountains far from.</p>
-            <form action="#">
-              <div class="form-field">
-                <input type="text" class="form-control" placeholder="Enter your email">
-                <button class="btn btn-subscribe">Send</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="row copyright">
         <div class="col-md-6">
           <div class="probootstrap-footer-widget">
-            <p>&copy; 2017 <a href="https://uicookies.com/">uiCookies:Black</a>. Designed by <a
-                href="https://uicookies.com/">uicookies.com</a> <br> Demo Photos from <a
-                href="https://unsplash.com/">Unsplash</a></p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="probootstrap-footer-widget right">
+            <h3 class="heading">Où me trouver</h3>
             <ul class="probootstrap-social">
               <li><a href="#"><i class="icon-twitter"></i></a></li>
               <li><a href="#"><i class="icon-facebook"></i></a></li>
@@ -353,6 +310,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
   </footer>
   <!-- END: Footer -->
